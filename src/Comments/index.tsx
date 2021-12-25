@@ -1,4 +1,5 @@
 import { DiscussionEmbed } from 'disqus-react';
+import { SITE_URL } from '../config/app-config';
 import { Container } from './styled';
 
 export type CommentsProps = {
