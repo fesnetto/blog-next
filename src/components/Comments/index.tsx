@@ -1,5 +1,5 @@
 import { DiscussionEmbed } from 'disqus-react';
-import { SITE_URL } from '../config/app-config';
+import { SITE_URL } from '../../config/app-config';
 import { Container } from './styled';
 
 export type CommentsProps = {
@@ -11,7 +11,7 @@ export const Comments = ({ slug, title }: CommentsProps) => {
   return (
     <Container>
       <DiscussionEmbed
-        shortname="aventureiros-1"
+        shortname="meublog-5"
         config={{
           url: `${SITE_URL}/post/${slug}`,
           identifier: slug,
